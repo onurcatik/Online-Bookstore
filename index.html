@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Online Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="product-catalog">
+            <h2>Book Catalog</h2>
+            <div class="product" data-id="1">
+                <img src="images/book1.jpg" alt="Book 1">
+                <h3>Book Title 1</h3>
+                <p>$10.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="images/book2.jpg" alt="Book 2">
+                <h3>Book Title 2</h3>
+                <p>$15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more books as needed -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
